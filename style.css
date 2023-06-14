@@ -1,0 +1,314 @@
+
+/* .cont{
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 0 auto;
+  overflow: hidden;
+} */
+
+.navigation{
+  background-color: rgb(236, 14, 14);
+   display: inline-block;  
+   width: 100%;
+}
+.continfo{
+ width: 50%; 
+ /* margin: 10px; */
+/* float: left; */
+}
+.continfo .mobile, .email {
+float: left;
+padding: 10px 30px;
+
+}
+ .email a, .mobile a{
+text-decoration: none;
+color: white;
+}
+/
+/*marque start*/
+marque{
+  
+  overflow: hidden;
+  text-transform: uppercase; 
+  
+
+}
+.tt{
+  width: 40%;
+  /* float: left; */
+  display:block;
+  margin: 0 auto;
+ padding-top: 10px; 
+ text-transform: capitalize;
+}
+/*marque stop*/
+
+
+/*logo stop*/
+.section{
+  background-color: gray;
+  width: 100%;
+  display: inline-block;
+  /* padding: 5px; */
+ 
+}
+
+.logocont{
+float: left; 
+  width: 20%;
+  margin-left: 50;
+
+}
+.mainMenu{
+float: left;
+width: 20%;
+margin-top: 19px;
+
+}
+/*Menu start*/
+.menu{
+  padding: 0;
+  list-style-type: none;
+  background-color:gray;
+  min-height:43px ;
+  margin:0 auto;
+  width: 950px;
+  display: inline-block;
+
+}
+.menu li{
+  float: left;
+  /* border-right: 2px solid white; */
+  position: relative;
+
+}
+.menu li a{
+  text-decoration: none;
+  background-color:gray;
+  color:white;
+  padding: 10px 15px;
+  display: block; 
+  font-size: 20px; 
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+.menu li:last-child{border-right:none}
+.menu li a:hover{
+  background: orange;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+
+.menu li ul{
+ list-style-type: none;
+padding: 0px;
+position: absolute;
+left: -99999px;
+}
+.menu li ul li{
+ float: none;
+ border-top: 1px solid grey;
+border-bottom: 1px solid white;
+
+position: relative;
+
+}
+.menu li:hover ul{
+  left: 0;
+  
+}
+
+
+}
+/*Menu stop*/
+
+
+
+.banner{
+        /* width: 100%;
+        height: 20%; */
+         border: 2px solid black; */
+        margin-top: 10px;
+
+    }
+
+.about{
+  width: 100%;
+  background-color: burlywood;
+  margin-top: 10px;
+  padding: 5px;
+  display:inline-block ;
+
+}
+.aboutus{
+float: left;
+background-color: beige;
+width: 60%;
+text-align: justify;
+padding: 11px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutus h4 {text-align: center;}
+.aboutus h1{text-align: center;} 
+
+#pic{
+float: left; 
+/* width: 20%;
+background-color: beige;
+border: 5px solid green;
+padding: 10px; */
+}
+#pic img{width: 500px; height: 249px;}
+
+
+
+.layout{
+    width: 100%;
+    background-color: rgb(105, 112, 112); 
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.lay{
+    float: left;
+    background-color: rgb(247, 242, 236);
+    width: 32%;
+    text-align: justify;
+    /* border: 3px solid green; */
+    margin: 3px;
+    padding: 5px;
+    border-radius: 15px;
+}
+h3{ text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h3:hover{color: red;
+  transition: all .2s ease-in-out;
+}
+
+/*button*/
+a.btn{
+  position: fixed;
+  background-color:red;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  bottom: 10vh;
+  right: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  
+}
+p{
+  text-align: justify;
+}
+
+ 
+
+.raju{
+background-color: rgb(235, 226, 226);
+display: inline-block;
+width: 100%;
+padding: 10px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 30px;
+}
+
+ .raju .raj{
+      color: white;
+      background-color: grey;
+      text-align: justify;
+      padding: 15px;
+      margin: 6px;
+      width: 30%;
+      float: left;
+      border-radius: 20px;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+     
+
+ }
+ .raju .raj a{text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 40;
+       margin-left: 150px;
+       margin-right: 150px;
+       margin-top: 20px;
+      
+
+}
+.raju .raj a:hover{
+  background-color: red;
+  padding: 5px;
+  border-radius: 3px;
+  color: black;
+  transition: all .3s ease-in-out;
+}
+ .raju .raj h2{
+  text-align: center;
+  
+ }
+a.coursesbtn{
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+
+  
+}
+a.coursesbtn:hover{
+  background-color: green;
+  transition: all 0.3s ease-in-out;
+}
+
+.containerMein{
+  background-color: black;
+  width: 100%;
+  padding-top: 50px;
+  display: inline-block;
+}
+.mainsec{
+  background-color: rgba(255, 255, 255, 0.979);
+  height: 400px;
+  width: 32%;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* position: relative; */
+  float: left;
+  /* margin: 5px; */
+
+}
+.mainsec .sec{
+list-style-type: none;
+width: 30%;
+float: left;
+margin-left: 12px;
+/* margin-bottom: px; */
+padding: 0;
+background-color: rgb(241, 236, 236);
+}
+.sec li{
+  text-align: center;
+  /* padding-top: 5px; */
+}
+.mainsec h2, h4{
+  text-align: center;
+  padding: 0 10px;
+}
